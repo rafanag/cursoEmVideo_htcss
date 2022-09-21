@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*Estilos para tela */
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+header h1{
+    background-color: rgb(15, 83, 61);
+    text-align: center;
+}
+
+menu  ul{
+    
+    background-color: antiquewhite;
+    padding: 10px;
+}
+menu li{
+    display: inline;
+    padding: 8px;
+    margin: 5px;
+    background-color: blueviolet;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: aqua;
+}
+
+
+body{
+    background-color: rgb(111, 124, 124);
+    color: aliceblue;
+    }
+article{
+    background-color: rgb(37, 37, 36);
+    width: 400px;
+    margin: auto;
+}
+article h2{
+    
+    text-align: center;
+    margin: 5px;
+}
+article p{
+    
+    margin: 5px;
+    color: aliceblue;
+    text-align: justify;
+}
