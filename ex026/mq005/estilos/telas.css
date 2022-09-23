@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*Tela Tablet*/
+@media screen and (min-width:600px) and (max-width:992px) {
+    span#burg{
+        display: none;
+    }
+
+    menu {
+        display: block;
+        
+    }
+
+    menu >ul >li{
+        display: inline-block;
+       
+    }
+    main{
+        width: 600px;
+    }
+}
+
+/*Telas Maiores*/
+@media screen and (min-width:992px) {
+    span#burg{
+        display: none;
+    }
+
+    menu {
+        display: block;
+        text-align: center;
+    }
+
+    menu >ul >li{
+        display: inline-block;
+       
+    }
+    main{
+        width: 600px;
+    }
+}

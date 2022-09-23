@@ -18,19 +18,22 @@ header > h1{
     padding: 10px;
     text-align: center;
 }
-
-menu > ul{
+menu{
     display: none;
+}
+menu > ul{
+    list-style-type: none;
 }
 
 menu > ul > li > a{
-   
+    display: block;
     background-color: rgb(73, 73, 73);
     color: white;
     text-decoration: none;
     padding: 10px;
     border-top: 2px solid gray;
     text-align: center;
+   
 
 }
 
@@ -54,6 +57,7 @@ span#burg:hover{
 }
 
 main{
+    display: block;
     margin: auto;
     padding: 10px;
     background-color: white;
